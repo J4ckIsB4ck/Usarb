@@ -2,6 +2,8 @@ body{
     background-image: url(imagesusarb/new_background_1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    padding-left: 100px;
+    margin-top: 20px;
 }
 .section1{
     width: 500px;
@@ -156,4 +158,14 @@ body{
 }
 .numberwords{
     color: white;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    padding-top: 15px;
+}
+.p{
+    padding-left: 10px;
 }
