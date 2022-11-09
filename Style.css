@@ -2,13 +2,16 @@ body{
     background-image: url(imagesusarb/new_background_1.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-left: 100px;
+    padding: 0px 0px 0px 40px;
     margin-top: 20px;
+    margin-left: 150px;
+}
+.blocks{
+    display: flex;
 }
 .section1{
     width: 500px;
-    
-    padding: 0px 0px;
+    padding: 0px 30px;
 }
 .orar{
     position: relative;
@@ -23,6 +26,8 @@ body{
 
 
 .orarcr{
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-weight: 900;
 }
@@ -48,18 +53,28 @@ body{
 }
 .ukbutton2:hover{
     transition: .3s;
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     color:black
 }
 #input{
     margin-top: 15px;
     width: 493px;
-    height: 20px;
+    height: 35px;
 
 }
-#resultzone{
+.resultzone{
     list-style: none;
     background-color: white;
+    border: ridge 1px lightgray;
+    padding: 0px 5px;
+}
+.resultpadding{
+    margin-top: 15px;
+}
+.resultzone2:hover{
+    transition: .3s;
+    background-color: #f4fd94;
+    color: black;
 }
 .daydatanumber{
     background-color: white;
@@ -154,10 +169,16 @@ body{
 }
 .white{
     background-color: white;
-    border: solid 1px;
+    border: ridge 1px gray;
+}
+.red{
+    background-color: #f0506e;
+
 }
 .numberwords{
     color: white;
+    text-decoration: none;
+    text-align: center;
 }
 .bottom{
     display: flex;
@@ -168,4 +189,54 @@ body{
 }
 .p{
     padding-left: 10px;
+}
+.bottom__second{
+    padding: 5px 15px
+}
+.textcenter_DO{
+    margin-left: 20px;
+}
+.bottom__second__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom__third{
+    margin-top: 20px;
+    color: #32d296;
+    background: #edfbf6;
+    padding: 15px 30px 15px 15px;
+}
+.section2{
+    display: flex;
+    justify-content: center ;
+}
+.alecorusso{
+    font-size: 1.25em;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.imglogo{
+    margin: 0px 245px 10px 245px;
+}
+.tableAR{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.tableAR__padding{
+    padding: 10px 20px;
+    font-family:"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
+}
+.tableAR2:hover{
+    transition: .3s;
+    background-color: #f4fd94;
+    color: black;
 }
